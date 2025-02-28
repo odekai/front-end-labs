@@ -1,0 +1,22 @@
+body{
+    color: #333333;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
+
+}
+h1{
+
+    background-color: #a34a4a;
+}
+h2{
+    border-bottom: 2px groove #333333;
+}
+
+figure{
+    background-color: #333333;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+figcaption{
+    color: aliceblue;
+    font-style: italic;
+}
