@@ -1,22 +1,33 @@
 body{
     color: #333333;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
-
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 940px;
 }
 h1{
+    font-family:'Libre Bodoni';
 
     background-color: #a34a4a;
 }
 h2{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     border-bottom: 2px groove #333333;
+    margin-top: 30px;
 }
 
 figure{
     background-color: #333333;
     border: 1px solid #ccc;
     text-align: center;
+    padding: 15px;
+    margin: 30px;
 }
 figcaption{
     color: aliceblue;
     font-style: italic;
+    margin-top: 10px;
+}
+ul{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
