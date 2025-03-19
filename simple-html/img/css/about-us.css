@@ -3,6 +3,7 @@
     --color-base:#333;
     --color-base-figure-background:#f0f8ff;
     --color-base-figure-border:#ccc;
+    --color-base-footer:#777
 }
 
 body{
@@ -41,3 +42,24 @@ ul{
 html{
     scroll-behavior: smooth;
 }
+#centro-distribuicao{
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
+}
+#rodape{
+    color: #777;
+    margin: 30px 0;
+    padding: 30px 0;
+}
+#rodape img{
+    background-color: var(--color-base-footer);
+    margin-right: 30px;
+    vertical-align: middle;
+    width: 94px;
+}
+#familia-pelho{
+    float: right;
+    margin: 0 0 10px 10px;
+}
+
