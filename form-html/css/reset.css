@@ -1,0 +1,45 @@
+/* Reset geral para todos os navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Define fontes e tamanho padrão */
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #fff;
+  }
+  
+  /* Remove o estilo das listas */
+  ul, ol {
+    list-style: none;
+  }
+  
+  /* Remove bordas e preenchimentos dos campos de formulário */
+  input, textarea, select, button {
+    border: none;
+    outline: none;
+    background: transparent;
+  }
+  
+  /* Remove o estilo padrão de links */
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Tabelas: elimina espaçamento entre células */
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  /* Restabelece o comportamento de exibição do cabeçalho e do corpo da página */
+  header, footer, main, section, article, aside {
+    display: block;
+  }
+  

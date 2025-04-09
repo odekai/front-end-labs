@@ -1,0 +1,91 @@
+:root{
+    --primary-color:#0929da;
+    --secondy-color:#d42c16;
+    --backgraund-color:#f9f9f9;
+    --font-famaly:Verdana,Geneva,Tahoma;
+    --font-size-medium:medium;
+    --font-size-large:large;
+    --text-button-color:white;
+}
+.flex-container{
+    display: flex;
+    flex-direction: column;
+}
+body{
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    font-family: var(--font-famaly);
+}
+fieldset{
+    margin-top: 10px;
+    background-color: var(--backgraund-color);
+    border-radius: 5px;
+}
+
+fieldset legend{
+     font-weight:bold ;
+}
+
+fieldset input, select{
+    font-size: var(--font-size-medium);
+}
+
+.grid-button-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 5px 0;
+}
+
+.grid-button-container input{
+    font-size: var(--font-size-medium);
+    font-weight: bold;
+    color: var(--text-button-color);
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom:5px;
+    border: none;
+
+}
+
+.grid-button-container input [type=submit]{
+background-color: var(--primary-color);
+}
+.grid-button-container input [type=reset]{
+    background-color: var(--secondy-color);
+
+
+}
+
+.grid-button-container input:focus{
+    outline:2px solid black;
+}
+
+.grid-header-container{
+    display: grid;
+    grid-template-areas: 'top-left top right';
+    border-bottom: black 5px solid;
+    margin-bottom: 5px;
+   
+
+}
+.top-left{
+    grid-area: top-left;
+    justify-self: left;
+}
+
+
+.top-right{
+    grid-area: top-right;
+    justify-self: right;
+}
+
+i{
+    vertical-align: middle;
+}
+
+h1,h2{
+
+}
+
