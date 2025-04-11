@@ -14,21 +14,40 @@
     display: block;
     border: 1px solid black;
     justify-content: center;
+    transform: scale3d();
     
 }
-.button:hover{
-   
+input:hover{
+    color: white;
+   background-color: blue;
     display: flex;
     justify-content: center;
     cursor: pointer ;
 }
-.button{
+input{
     display: flex;
     justify-content: center;
     margin-top: 20px;
     width: 150;
     height: auto;
-    color: rgb(8, 134, 236);
-    border: 1px solid rgb(8, 134, 236);
+    color: rgb(8, 23, 236);
+    border: 1px solid rgb(8, 23, 236);
     border-radius:  4px;
 }
+
+var{
+    display: flex;
+    justify-content: center;
+    color: rgb(8, 23, 236);
+}
+h1{
+    display: flex;
+    justify-content: center;
+
+}
+    
+p{
+    display: flex;
+    justify-content: center
+}
+
