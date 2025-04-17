@@ -53,11 +53,28 @@
     
 }
 .card:hover{
+    color: black;
     transform: scale(1.10);
     box-shadow: 0 4px 20px rgb(186, 181, 210);
 }
 
-.card h2{
+.card.elite:hover{
+    background-color: #daa520;
+    box-shadow:0 4px 20px #daa520;
+}
+.card.gratuito:hover{
+    background-color: #cd7f32;
+    box-shadow:0 4px 20px #cd7f32;
+
+}
+.card.profissional:hover{
+    background-color: #C0C0C0;
+    box-shadow:0 4px 20px #C0C0C0;
+
+}
+
+
+.card  h2{
     margin: 0;
     text-shadow: 1px 1px 2px gray;
 }
