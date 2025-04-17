@@ -3,7 +3,10 @@
     --color-background: #ecf4ff;
     --color-text: #36393f;
     --color-light: #f7f7f7;
-    --color-alert: orange;
+    --color-ouro:  #daa520;
+    --color-prata: #C0C0C0;
+    --color-bronze: #cd7f32;
+  
   
     --font-main: "Poppins", sans-serif;
   
@@ -59,17 +62,20 @@
 }
 
 .card.elite:hover{
-    background-color: #daa520;
-    box-shadow:0 4px 20px #daa520;
+    color: white;
+    background-color: black;
+    box-shadow: 0 0 15px 5px var(--color-ouro);
 }
 .card.gratuito:hover{
-    background-color: #cd7f32;
-    box-shadow:0 4px 20px #cd7f32;
+    color: white;
+    background-color: black;
+    box-shadow: 0 0 15px 5px var(--color-bronze);
 
 }
 .card.profissional:hover{
-    background-color: #C0C0C0;
-    box-shadow:0 4px 20px #C0C0C0;
+    color: white;
+    background-color: black;
+    box-shadow: 0 0 15px 5px var(--color-prata);
 
 }
 
