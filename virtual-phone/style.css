@@ -1,0 +1,56 @@
+*{
+    box-sizing:border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    flex-direction:column;
+    background-image:
+    linear-gradient(to top,rgba(0,0,0,0.2),rgba(0,0,0,0.8));
+    min-height: 100vh;
+}
+imput{
+    border: none;
+    color: inherit;
+    font-size: inherit;
+    font-family: inherit;
+}
+
+h1{
+    font-family: monospace;
+    font-size: 2.5em;
+    color: cornsilk;
+}
+.teclado{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    padding: 10px; 
+    border-radius: 10px;
+    background-color:floralwhite ;
+}
+
+input[type=button]{
+    border-radius:20px;
+    cursor: pointer;
+    font-family: monospace;
+    height: 80px;
+    width: 80px;
+
+}
+input[type=button]:hover{
+    font-weight: bold;
+    box-shadow: 0 4px 8px 0 rgba(red, green, blue, 0.5);
+
+}
+input[type=tel]{
+    background-color: floralwhite;
+    border-radius: 5px;
+    font-family: monospace;
+    margin-bottom: 25px;
+    font-size: 18px;
+    padding: 10px;
+    text-align:center ;
+}
+
