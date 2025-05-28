@@ -49,11 +49,11 @@ box-shadow: 0 2px 10px var(--light-shadow);
 margin-top: 2rem;
 transition:all 0.3s ease;
 }
-.light-theme{
+.light-theme .card{
     background-color: var(--ligth-card);
 
 }
-.dark-theme{
+.dark-theme .card{
     background-color: var(--dark-card);
     box-shadow: 0 2px 10px var(--dark-shadow); 
 }
