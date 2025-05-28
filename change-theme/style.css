@@ -1,0 +1,59 @@
+:root{
+    /*Cores do tema ligth*/
+    --ligth-bg: #f6f6f6;
+    --ligth-text:#333;
+    --ligth-card:#fff;
+    --light-shadow:rgba(0,0,0,0.1);
+
+    /*cores do tema dark*/
+    --dark-bg:#1a1a1a;
+    --dark-text: white;
+    --dark-card:#2d2d2d;
+    --dark-shadow:rgba(0,0,0,0.3);
+
+
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    transition: all 0,3s ease;
+
+}
+.light-theme{
+    background-color: var(--ligth-bg);
+    color:var(--ligth-text) ;
+}
+.dark-theme{
+    background-color: var(--dark-bg);
+    color: var(--dark-text);
+}
+
+.container{
+    max-width:800px;
+    margin:0  auto;
+    padding:2rem;
+
+}
+button{
+    padding: 0.5rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 2rem;
+
+}
+.card{
+padding: 1.5rem;
+border-radius:8px;
+box-shadow: 0 2px 10px var(--light-shadow);
+margin-top: 2rem;
+transition:all 0.3s ease;
+}
+.light-theme{
+    background-color: var(--ligth-card);
+
+}
+.dark-theme{
+    background-color: var(--dark-card);
+    box-shadow: 0 2px 10px var(--dark-shadow); 
+}
